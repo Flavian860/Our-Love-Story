@@ -158,7 +158,7 @@ if st.session_state.submitted:
   final_score = st.session_state.score
   st.metric("Your Romantic Score", f"{final_score} / 100 pts")
 
-  if final_score >= 90:
+  if final_score >= 75:
     st.success(
         "🏆 **Certified Soulmate Status!** You know me inside and out, and you"
         " hold the absolute key to my heart. I love you so much!"
